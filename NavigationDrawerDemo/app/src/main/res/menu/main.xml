@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- title là tiêu đề của item -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <!-- showasacction là chỉ định  action sẽ được hiên thị như một button
+    trên appbar
+    showasaction=ifroom action sẽ được hiển thi đầy đủ như một button nếu
+    như appbar có đủ không gian còn nếu như không đủ thì  action sẽ hiển thị dưới
+    dạng overflow menu
+    app:showasaction=never  action lun hiển thị ở dạng overflow menu
+    và không hiển thị trên appbar-->
+</menu>
